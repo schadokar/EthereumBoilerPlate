@@ -1,5 +1,5 @@
 {
-  "name": "voting-project",
+  "name": "ethereum-boiler-plate",
   "version": "1.0.0",
   "description": "",
   "main": "./server/index.js",
@@ -9,7 +9,7 @@
     "ganache": "set NODE_ENV=GANACHE&& node ./server/index.js",
     "ganacheDeploy": "set NODE_ENV=GANACHE&& node ./ethereum/deploy"
   },
-  "author": "",
+  "author": "shubham chadokar",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",

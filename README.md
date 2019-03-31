@@ -26,6 +26,11 @@ To compile the contract stored in ethereum/contracts folder
 To deploy the contract  
 > node ./ethereum/deploy.js   
 
+#### For Linux Users
+Update the package.json to this
+> "ganache": "NODE_ENV=GANACHE node ./server/index.js",
+> "ganacheDeploy": "NODE_ENV=GANACHE node ./ethereum/deploy" 
+
 ## Brief overview of all the folders
 
 ### ethereum  

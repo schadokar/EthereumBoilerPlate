@@ -1,7 +1,7 @@
 const fs = require("fs-extra");
 const path = require("path");
 const {web3, web3Network} = require("./web3");
-const compiledContract = require("./build/message.json");
+const compiledContract = require("./build/Message.json");
 const circularJSON = require('circular-json');
 
 const deploy = async (mymessage) => {

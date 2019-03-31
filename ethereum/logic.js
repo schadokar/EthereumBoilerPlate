@@ -1,6 +1,6 @@
 const fs = require("fs-extra");
 const {web3, web3Network} = require("./web3");
-const compileContract = require("./build/Election.json");
+const compileContract = require("./build/Message.json");
 
 // Contract object deployed on network (ganache-cli or testnet or mainnet)
 // network can be selected in web3 file

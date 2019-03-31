@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const app = express();
-const contractAPIRoutes = require("./routes/contractAPI");
+const contractAPIRoutes = require("./routes/contract-API");
 
 const port = process.env.PORT || 4000;
 
