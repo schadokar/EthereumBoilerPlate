@@ -5,7 +5,9 @@
   "main": "./server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./server/index.js",
+    "start": "nodemon ./server/index.js",
+    "compile": "node ./ethereum/compile.js",
+    "deploy": "node ./ethereum/deploy.js",
     "ganache": "set NODE_ENV=GANACHE&& node ./server/index.js",
     "ganacheDeploy": "set NODE_ENV=GANACHE&& node ./ethereum/deploy"
   },
@@ -20,8 +22,8 @@
     "fs-extra": "^7.0.1",
     "jsonfile": "^5.0.0",
     "nodemon": "^1.18.9",
-    "solc": "0.4.25",
-    "truffle-hdwallet-provider": "1.0.2",
-    "web3": "1.0.0-beta.35"
+    "solc": "^0.4.25",
+    "truffle-hdwallet-provider": "^1.0.2",
+    "web3": "^1.0.0-beta.35"
   }
 }
