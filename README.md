@@ -100,3 +100,15 @@ Make sure you comment the compile.js and deploy.js function call. Both are in th
 This will server the contractAPI at 4000 port by default.  
 You can change this using .env file.  
 In .env file just make a entry of PORT=8080
+
+## React Application
+
+From client directory
+
+> npm start
+
+Application will serve on http://localhost:3000
+
+# References
+
+HTML and CSS : https://codeburst.io/build-a-weather-website-in-30-minutes-with-node-js-express-openweather-a317f904897b
