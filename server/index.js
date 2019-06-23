@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const app = express();
 const contractAPIRoutes = require("./routes/contract-API");
+const smartContractAPIRoutes = require("./routes/smart-contract-API");
 
 const port = process.env.PORT || 4000;
 
@@ -18,6 +19,7 @@ app.use(
 
 // use the routes specified in route folder
 app.use("/contract", contractAPIRoutes);
+app.use("/api/v1", smartContractAPIRoutes);
 
 app.use(function(err, req, res, next) {
   res.status(422).send({ error: err.message });
